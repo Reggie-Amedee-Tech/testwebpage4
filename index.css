@@ -49,6 +49,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 20px auto;
+    font-weight: bold;
 }
 
 .bottomcontent {
@@ -65,13 +66,16 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-    
 }
 
 .bottomcontent ol li {
     margin: auto 20px;
     list-style-type: none;
     
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
